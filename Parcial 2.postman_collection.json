@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "ed8edbba-3854-466b-8349-5fe4b7901740",
+		"name": "Parcial 2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47698309",
+		"_collection_link": "https://pmmd05-4799515.postman.co/workspace/Paula-Mar%C3%ADa-Marroqu%C3%ADn-Di%C3%A9guez's~ab8dcf34-1f5d-46c0-8570-db7d1d13b58b/collection/47698309-ed8edbba-3854-466b-8349-5fe4b7901740?action=share&source=collection_link&creator=47698309"
+	},
+	"item": [
+		{
+			"name": "libros",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "libros id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/libros",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"libros"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/libros/ff1dfeaf-94cf-443d-b85e-b64537c0d5ef",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"libros",
+						"ff1dfeaf-94cf-443d-b85e-b64537c0d5ef"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
